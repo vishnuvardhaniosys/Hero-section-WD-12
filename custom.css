@@ -1,0 +1,94 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url(images/bg.svg);
+	background-repeat: no-repeat;
+}
+img{
+	 width: calc(100% - 20px);
+}
+.wrapper{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.content{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	color:#ffffff;
+	padding: 0% 0% 0% 15%;
+}
+.computer{
+	width:50%;
+	display: flex;
+	margin-top: 210px;
+}
+.whwedo{
+	margin-top: 158px;
+	font-size: 1.3em;
+}
+.hirdev{
+	margin-top: 12px;
+	font-size: 3em;
+	font-weight: 550;
+	line-height: 1.23;
+}
+.desc{
+	margin-top: 28px;
+	font-size: 1.3em;
+}
+.butcont{
+	margin-top: 64px;
+	width:156px;
+	height:53px;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #ffffff;
+	border:none;
+	display: flex;
+	flex-direction: row;
+}
+.btn{
+	width:60%;
+	  margin: 17px 4px 17px 31px;
+}
+
+.triangle {
+  width: 16px;
+  height: 21px;
+  margin: 15px 21px 15px 2px;
+  background-color: #000000;
+      clip-path: polygon(0 0, 0% 100%, 100% 44%);
+ }   
+
+ .wrapper2{
+width:100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+ }
+
+ .mouse{
+border:solid 2px #ffffff;
+display: flex;
+height:45px;
+width:31px;
+border-radius: 18px;
+justify-content: center;
+align-items: center;
+color:#ffffff;
+font-family:sans-serif;
+font-weight: bold;
+ }
+
+ @media only screen and (max-width:767px){
+	.content, .computer{
+		width:100%;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+}
